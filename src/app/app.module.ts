@@ -8,6 +8,8 @@ import { ContactComponent } from './contact/contact.component';
 import { MapComponent } from './map/map.component';
 import { FooterComponent } from './footer/footer.component';
 import { AgmCoreModule } from '@agm/core';
+import { ProductComponent } from './product/product.component';
+import { SologenComponent } from './sologen/sologen.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +17,9 @@ import { AgmCoreModule } from '@agm/core';
     IntroduceComponent,
     ContactComponent,
     MapComponent,
-    FooterComponent
+    FooterComponent,
+    ProductComponent,
+    SologenComponent
   ],
   imports: [
     BrowserModule,
